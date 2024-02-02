@@ -33,7 +33,7 @@ Dopo aver confermato i dati, verrà generato il tuo codice fiscale italiano.
 Puoi scegliere di calcolare una nuova imposta o uscire dal programma.
 
 # Requisiti
-È necessario avere installato un ambiente di sviluppo C# (ad esempio, Visual Studio) per eseguire il programma.
+È necessario avere installato un ambiente di sviluppo C# (ad esempio, Visual Studio o VS Code con le corrette estensioni) per eseguire il programma.
 
 Il file JSON "codici_comuni.json" deve essere presente nella stessa directory del programma. Assicurati che il file contenga i dati dei comuni italiani in un formato corretto.
 
