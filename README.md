@@ -6,15 +6,20 @@
 Questo programma è un'applicazione console che consente agli utenti di calcolare l'imposta sul reddito in base ai loro dati personali e generare il codice fiscale italiano corrispondente. È stato sviluppato in C# e utilizza la libreria Newtonsoft.Json per la gestione dei dati dei comuni italiani da un file JSON esterno.
 
 # Funzionalità Principali
-Inserimento Dati Personali: L'utente può inserire il proprio nome, cognome, data di nascita, sesso e comune di residenza. Vengono effettuate diverse verifiche per garantire l'accuratezza dei dati inseriti.
+## Inserimento Dati Personali: 
+L'utente può inserire il proprio nome, cognome, data di nascita, sesso e comune di residenza. Vengono effettuate diverse verifiche per garantire l'accuratezza dei dati inseriti.
 
-## Calcolo dell'Imposta: Il programma calcola l'imposta annuale in base al reddito dichiarato, seguendo le aliquote fiscali italiane. L'imposta è mostrata all'utente insieme ai dettagli del calcolo.
+## Calcolo dell'Imposta: 
+Il programma calcola l'imposta annuale in base al reddito dichiarato, seguendo le aliquote fiscali italiane. L'imposta è mostrata all'utente insieme ai dettagli del calcolo.
 
-## Generazione del Codice Fiscale: Dopo aver confermato i dati personali, il programma genera il codice fiscale italiano dell'utente in base ai dati inseriti, inclusi nome, cognome, data di nascita, sesso e comune di residenza.
+## Generazione del Codice Fiscale: 
+Dopo aver confermato i dati personali, il programma genera il codice fiscale italiano dell'utente in base ai dati inseriti, inclusi nome, cognome, data di nascita, sesso e comune di residenza.
 
-## Gestione dei Comuni: Il programma utilizza un elenco di comuni italiani da un file JSON esterno ("codici_comuni.json") per verificare la validità del comune di residenza inserito dall'utente.
+## Gestione dei Comuni: 
+Il programma utilizza un elenco di comuni italiani da un file JSON esterno ("codici_comuni.json") per verificare la validità del comune di residenza inserito dall'utente.
 
-## Menu Interattivo: L'utente può scegliere se calcolare una nuova imposta o uscire dal programma dopo aver visualizzato i risultati.
+## Menu Interattivo: 
+L'utente può scegliere se calcolare una nuova imposta o uscire dal programma dopo aver visualizzato i risultati.
 
 # Istruzioni per l'Utilizzo
 Avvia il programma.
